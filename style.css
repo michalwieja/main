@@ -130,6 +130,10 @@ body .container .card .bottom {
   }
 }
 
+body .container .card .bottom .desc {
+  padding: 5px 10px;
+}
+
 body .container .card .bottom .desc .more {
   display: none;
 }

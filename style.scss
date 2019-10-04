@@ -87,6 +87,7 @@ body {
         }
 
         .desc {
+          padding: 5px 10px;
           .more {
             display: none;
             @media screen and (min-width: $break-large) {
