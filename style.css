@@ -132,6 +132,7 @@ body .container .card .bottom {
 }
 
 body .container .card .bottom .desc {
+  text-align: center;
   padding: 5px 10px;
 }
 
