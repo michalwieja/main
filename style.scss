@@ -81,7 +81,6 @@ body {
         align-items: center;
         justify-content: space-evenly;
 
-        text-align: justify;
         color: #fff;
         font-size: 14px;
 
@@ -96,6 +95,12 @@ body {
         .desc {
           text-align: center;
           padding: 5px 10px;
+
+          @media screen and (min-width: $break-medium) {
+            text-align: justify;
+          }
+
+
 
           .more {
             display: none;

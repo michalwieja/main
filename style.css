@@ -115,7 +115,6 @@ body .container .card .bottom {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  text-align: justify;
   color: #fff;
   font-size: 14px;
 }
@@ -134,6 +133,12 @@ body .container .card .bottom {
 body .container .card .bottom .desc {
   text-align: center;
   padding: 5px 10px;
+}
+
+@media screen and (min-width: 950px) {
+  body .container .card .bottom .desc {
+    text-align: justify;
+  }
 }
 
 body .container .card .bottom .desc .more {
