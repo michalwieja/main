@@ -21,7 +21,7 @@ body {
   .container {
     // background-color: white;
     width: 90%;
-    height: 90%;
+    height: 95%;
     display: grid;
 
     grid-template-columns: 1fr;
@@ -42,32 +42,38 @@ body {
 
     .card {
       height: 100%;
+
       @media screen and (min-width: $break-large) {
         &:hover .top {
           transform: translateY(0%);
         }
+
         &:hover .bottom {
           transform: translateY(0%);
           opacity: 1;
           visibility: visible;
         }
       }
+
       .top {
-        height: 50%;
+        height: 40%;
         background-color: #fff;
         display: flex;
         align-items: center;
         justify-content: center;
         transition: 0.5s;
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+
         @media screen and (min-width: $break-large) {
           transform: translateY(25%);
+          height: 50%;
+
         }
       }
 
       .bottom {
         background-color: $my-green;
-        height: 50%;
+        height: 60%;
         transition: 0.5s;
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
         display: flex;
@@ -78,6 +84,7 @@ body {
         text-align: justify;
         color: #fff;
         font-size: 14px;
+
         @media screen and (min-width: $break-large) {
           transform: translateY(-25%);
           height: 70%;
@@ -88,20 +95,24 @@ body {
 
         .desc {
           padding: 5px 10px;
+
           .more {
             display: none;
-            @media screen and (min-width: $break-large) {
+
+            @media screen and (min-width: $break-medium) {
               display: inline;
             }
           }
         }
 
         .btn {
+          font-size: 12px;
           padding: 5px 15px;
           background-color: #fff;
           border: 1px solid white;
           color: $my-green;
           text-decoration: none;
+
           &:hover {
             background-color: $my-green;
             color: white;
