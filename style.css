@@ -123,7 +123,7 @@ body .container .card .bottom {
   body .container .card .bottom {
     -webkit-transform: translateY(-25%);
             transform: translateY(-25%);
-    height: 70%;
+    height: 90%;
     padding: 0 20px;
     opacity: 0;
     visibility: hidden;
@@ -164,5 +164,40 @@ body .container .card .bottom .btn:hover {
   background-color: #63bb8f;
   color: white;
   border: 1px solid white;
+}
+
+.socials {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 20vh;
+  width: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.socials a {
+  color: #bbb;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.socials a:nth-child(1):hover {
+  color: #3B5998;
+}
+
+.socials a:nth-child(2):hover {
+  color: #CC181E;
+}
+
+.socials a:nth-child(3):hover {
+  color: #00acee;
 }
 /*# sourceMappingURL=style.css.map */

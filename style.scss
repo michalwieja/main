@@ -86,7 +86,7 @@ body {
 
         @media screen and (min-width: $break-large) {
           transform: translateY(-25%);
-          height: 70%;
+          height: 90%;
           padding: 0 20px;
           opacity: 0;
           visibility: hidden;
@@ -128,4 +128,33 @@ body {
       }
     }
   }
+}
+
+.socials {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 20vh;
+  width: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.socials a {
+  color: #bbb;
+  transition: .5s
+}
+
+.socials a:nth-child(1):hover {
+  color: #3B5998
+}
+
+.socials a:nth-child(2):hover {
+  color: #CC181E
+}
+
+.socials a:nth-child(3):hover {
+  color: #00acee
 }
