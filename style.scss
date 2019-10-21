@@ -131,15 +131,18 @@ body {
 }
 
 .socials {
+  display: none;
   position: absolute;
   bottom: 0;
   right: 0;
   height: 20vh;
   width: 40vh;
-  display: flex;
   align-items: center;
   justify-content: space-evenly;
 
+  @media screen and (min-width: $break-medium) {
+    display: flex;
+  }
 }
 
 .socials a {
